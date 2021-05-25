@@ -100,18 +100,29 @@ h5{
   //line-height: 38px;
   font-weight: 300; 
 }
-nav a,.top-bar a {
+nav a{
   font-size:.85rem;
   font-family: Roboto;
+  transition: all 0.2s linear;
+  //font-weight:500;
+  letter-spacing: -.005em;
   }
-  
+  .top-bar a{
+    letter-spacing: -.005em;
+    font-size:1.1rem;
+    font-weight: 500;
+    transition: all 0.2s linear;
+    font-family: 'Acumin Pro', sans-serif;
+  } 
 .top-bar i{
+
   color: #FAAD26;
   }
-  .fa{
-    font-size:1.1rem;
+  .fa-phone,.fa-whatsapp{
+   font-size:1.5rem;
   }
 .phone{
+ 
   color: #3A3A3C;
 }
 .btn{
