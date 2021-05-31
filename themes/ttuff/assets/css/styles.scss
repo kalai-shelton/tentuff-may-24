@@ -8,7 +8,7 @@
 @import "testimonal";
 
 .dropdown:hover > .dropdown-content {
-    display: block;
+     display: inline-block;
   }
   #menu-toggle:checked + #menu {
       display: block;
