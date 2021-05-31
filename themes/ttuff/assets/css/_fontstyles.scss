@@ -30,13 +30,21 @@ ul{
    
 }
 p {
-  font-size: 1rem;
+  font-size: .85rem;
   line-height: 1.6;
   font-weight: 300;
   color: $text-color-default;
   font-family: 'Acumin Pro', sans-serif;
 }
-
+@media (min-width:767px) {
+  p {
+    font-size: 1rem;
+    line-height: 1.6;
+    font-weight: 300;
+    color: $text-color-default;
+    font-family: 'Acumin Pro', sans-serif;
+  }
+}
 h1 {
   font-size: 44px;
   font-style: normal;
@@ -47,13 +55,24 @@ h1 {
 
 h2 {
   //styleName: Title 2;
-  font-size: 2rem;
+  font-size: 1.5rem;
  // font-style: normal;
   line-height:1;
   font-weight: 400;
   margin-bottom:.6rem;
   font-family: 'Acumin Pro', sans-serif;
+ 
   }
+  @media (min-width:767px) {
+    h2 {
+      font-size: 2rem;
+      // font-style: normal;
+       line-height:1;
+       font-weight: 400;
+       margin-bottom:.6rem;
+       font-family: 'Acumin Pro', sans-serif;
+    }
+   }
 
 h3 {
   font-family: 'Acumin Pro', sans-serif;
@@ -87,12 +106,23 @@ a{
 }
 
 li{
-  font-size: 16px;
+  font-size: 14px;
   color:$tertiary-color;
   line-height: 22px;
   font-family: 'Acumin Pro', sans-serif;
   padding-bottom: 10px; 
 }
+@media (min-width:767px) {
+  li{
+    font-size: 16px;
+    color:$tertiary-color;
+    line-height: 22px;
+    font-family: 'Acumin Pro', sans-serif;
+    padding-bottom: 10px;
+  }
+  
+}
+
 h5{
   font-size: 1.1rem;
   font-style: normal;
@@ -101,25 +131,50 @@ h5{
   font-weight: 300; 
 }
 nav a{
-  font-size:.85rem;
+  font-size:.65rem;
   font-family: Roboto;
   transition: all 0.2s linear;
   //font-weight:500;
   letter-spacing: -.005em;
   }
+  @media (min-width:767px) {
+  nav a{
+    font-size:.85rem;
+  font-family: Roboto;
+  transition: all 0.2s linear;
+  //font-weight:500;
+  letter-spacing: -.005em;
+  }  
+  }
+
   .top-bar a{
     letter-spacing: -.005em;
-    font-size:1.1rem;
+    font-size:.85rem;
     font-weight: 500;
     transition: all 0.2s linear;
     font-family: 'Acumin Pro', sans-serif;
   } 
+  @media (min-width:767px) {
+    .top-bar a{
+      letter-spacing: -.005em;
+    font-size:1.1rem;
+    font-weight: 500;
+    transition: all 0.2s linear;
+    font-family: 'Acumin Pro', sans-serif;
+    }
+  }
 .top-bar i{
 
   color: #FAAD26;
   }
   .fa-phone,.fa-whatsapp{
-   font-size:1.5rem;
+   font-size:.9rem;
+  }
+  @media (min-width:767px) {
+    .fa-phone,.fa-whatsapp{
+      font-size:1.5rem;
+     
+     }
   }
 .phone{
  
